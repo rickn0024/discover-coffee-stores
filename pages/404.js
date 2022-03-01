@@ -1,12 +1,12 @@
 import Layout from '../components/Layout';
 import Header404 from '../components/Header404';
-import { SITE_DOMAIN } from '../utils/constants';
+// import { SITE_DOMAIN } from '../utils/constants';
 
 const FourOhFour = () => {
   const pageMeta = {
     title: 'Oops! You found a missing page! - Jamstack Explorers',
     description: 'Oops! It looks like this page is lost in space somewhere!',
-    url: `${SITE_DOMAIN}/404`,
+    // url: `${SITE_DOMAIN}/404`,
   };
 
   return (
